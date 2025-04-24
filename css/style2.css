@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(247, 204, 221);
+    color: rgb(56, 56, 56);
+
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    color: #4a4a4a;
+    font-family: "Kiwi Maru", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    font-family: "Kiwi Maru", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container{
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+header{
+    background-color: rgb(225, 99, 145);
+    color: #ffff;
+
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.Profile-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 20px;
+    border: 3px solid white;
+}
+
+.Profile-name{
+    font-size: 1.5rem;
+    margin: 0 0 0 20px;
+}
+
+section{
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 10px 5px 5px #c5a1aa;
+}
+
+h1{
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2{
+    color:  rgb(225, 99, 145);
+
+    margin-top: 0;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: Bold;
+    font-style: bold;
+}
+
+footer{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #888;
+}
